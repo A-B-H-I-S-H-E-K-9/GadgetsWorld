@@ -1,0 +1,521 @@
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        #menu{
+            width: 100%;
+            height: 80px;
+            background: #F6F6F6;
+            position: sticky;
+            top : 0;
+	        z-index : 100;
+            box-shadow: -2px 4px 8px 0px rgba(0,0,0,0.75);
+        }
+        #top_logo{
+            float :left;
+            width : 20%;
+            height : 80px;
+        }
+        #top_logo img{
+            margin : 0;
+            width : 70%;
+            transition: transform;
+            transition-duration: 1s;
+        }
+        #top_logo img:hover{
+            transform: scale(1.05,1.05);
+        }
+        #left_menu{
+            float:left;
+            width : 60%;
+            height: 80px;
+        }
+        #left_menu ul{
+            list-style: none;
+            margin-top: 10px;
+            font-family: Arial;
+        }
+        #left_menu ul li a:link,
+        #left_menu ul li a:visited {
+            padding: 15px 20px;
+            float: left;
+            border-radius: 5px;
+            text-decoration: none;
+            color: rgb(46, 46, 46);
+            font-weight: bold;
+            font-size: 20px;
+            text-shadow: 3px 4px 3px rgba(255, 255, 255, 0.71);
+            transition: transform;
+            transition-duration: 1s;
+        }
+        #left_menu ul li a:hover {
+            margin: 0;
+            background: red;
+            color: white;
+            border-radius: 5px;
+            border: 1px solid white;text-shadow: -2px 1px 1px rgba(0,0,0,0.62);
+            transform: scale(1.03,1.03);
+        }
+        
+        #left_menu ul li:nth-child(3) a:link,#left_menu ul li:nth-child(3) a:visited{
+            color : red;
+        }
+        #left_menu ul li:nth-child(3) a:hover{
+            color :white;
+        }
+        #right_menu {
+            width : 20%;
+            height : 80px;
+            float: right;
+        }
+        #right_menu ul {
+            margin: 0;
+            margin-top : 10px;
+            list-style: none;
+            font-family: Arial;
+        }
+        #right_menu ul li {
+            float: left;
+            color: rgb(97, 97, 97);
+        }
+        #right_menu ul li a:link,
+        #right_menu ul li a:visited {
+            margin : 0;
+            margin-left: 10px;
+            padding: 15px 25px;
+            float: left;
+            border-radius: 5px;
+            text-decoration: none;
+            background-color: red;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            font-size: 20px;
+            transition: transform;
+            transition-duration: 2s;
+        }
+        #right_menu ul li a:hover {
+            background-color: white;
+            color: red;
+            border: 2px solid rgb(212, 212, 212);
+            box-shadow: -6px 5px 18px 5px rgba(214,214,214,0.74);
+            transform: scale(1.03,1.03);
+        }
+        
+        #topC{
+            width : 100%;
+            background-size: 100% 100%;
+        }
+        #top_c{
+            background: url('images/category_bg.jpg') fixed;
+            background-size: 100% 100%;
+            width : 100%;
+            height : 700px;
+            position: relative;
+        }
+        #top_h{
+            position: absolute;
+            bottom : 40px;
+            right : 100px;
+            width : 600px;
+            height: 500px;
+        }
+        #top_h h3
+        {
+            line-height: 80px;
+            margin: 0;
+             font-size: 80px;
+             color: rgb(15, 250, 238);
+             text-shadow: 2px 1px 8px rgb(241, 252, 149);
+        }
+        #top_h p{
+            text-align: justify;
+            line-height: 35px;
+            color: rgb(0, 247, 255);
+            font-family: sans-serif;
+            letter-spacing: 1px;
+            font-size: 20px;
+            word-spacing: 3px;
+            text-shadow: 4px 2px 10px rgb(151, 184, 255);
+        }
+        #topC #search_bar{
+            width : 400px;
+            height: 50px;
+            background: whitesmoke;
+            border: 1px solid rgb(138, 86, 86);
+            float: left ;box-shadow: -1px 2px 13px 3px rgba(17,216,232,0.62);
+        }
+        #search_bar p{
+            margin : 10px auto;
+            color: rgb(179, 173, 173);
+            text-shadow: 2px 1px 8px rgb(192, 212, 167);
+        }
+        #searchicon{
+            width : 60px;
+            height: 50px;
+            background: yellow;
+            border: 1px solid rgb(138, 86, 86);
+            float : left;box-shadow: -1px 2px 13px 3px rgba(103, 234, 243, 0.503);
+        }
+        #searchicon i{
+            margin : 10% 25%;
+            color : rgb(154, 152, 152);
+            border: 1px solid rgb(219, 236, 141);
+        }
+        #phone_s{
+            width : 100%;
+            height : 550px;
+            border-bottom: 1px solid gray;
+        }
+         #laptop_s{
+            width : 100%;
+            height : 550px;
+            border-bottom: 1px solid gray;
+        }
+        #fitness_s{
+            width : 100%;
+            height : 600px;
+            border-bottom: 1px solid gray;
+        } 
+        #gaming_s{
+            width : 100%;
+            height: 550px;
+            border-bottom: 1px solid gray;
+        }
+        .header_s
+        {
+            width : 50%;
+            float : left;
+            height: 70px;
+            margin : 20px 25% 0 25%;
+            position: relative;
+        }
+        .header_s h3{
+            margin-top: 0;
+            text-align: center;
+            font-size: 40px;
+            color :rgb(255, 38, 0);
+            font-family: 'Cinzel Decorative', cursive;
+            text-shadow: -1px 3px 4px rgb(235, 177, 133),-5px 0px 4px rgb(253, 255, 143);
+            letter-spacing: 3px;
+            text-decoration: underline;
+            text-decoration-thickness: 3px;
+        }
+        .box1{
+            width : 300px;
+            height : 400px;
+            margin : 2%;
+            float : left;
+            border : 3px solid rgb(198, 193, 193);
+            box-shadow: -3px 2px 13px 3px rgba(86, 85, 85, 0.68);
+            transition: transform 2s;
+            position: relative;
+        }
+        .box1 a:link, .box1 a:visited{
+            text-decoration:none;
+            color : white;
+            font-size: 20px;
+            padding : 10px 25px;
+            background: red;
+            border-radius: 2px;
+            position: absolute;
+            left : 80px;
+            bottom : 70px;
+            text-align: justify;
+            animation-name: know_more;
+            animation-duration: 2s;
+            animation-iteration-count: 1;
+            display: none;
+        }
+        .box1:hover{
+            opacity: 0.9;
+        }
+        .box1:hover a:link, .box1:hover a:visited{
+            display: block;
+            opacity: 1;
+        }
+        .box1 a:hover{
+            text-decoration: underline;
+            border : 1px solid white;
+        }
+            @keyframes know_more{
+            0%{
+                transform: translatey(70px);
+            }
+            100%{
+                transform: translatey(0px);
+            }
+        }
+        .box1 p{
+            text-align: center;
+            line-height: 70px;
+            color: #ffffff;
+            font-family: 'Stardos Stencil', cursive;
+            font-size: 70px;
+            text-shadow: -1px 3px 4px rgb(255, 9, 9),-5px 0px 4px rgb(22, 22, 22);
+            display: none;
+        }
+        .box1:hover p{
+            display: block;
+            animation-name: box_p;
+            animation-duration: 2s;
+        }
+        @keyframes box_p{
+            0%{
+                transform: scale(0.8,0.8);
+            }
+            100%{
+                transform: scale(1.0,1.0);
+            }
+        }
+        #phone_s  .phone1{
+            background: url('category images/phone1.jpg');
+            background-size: 100% 100%;
+        }
+        #phone_s  .phone2{
+            background: url('category images/phone2.jpg');
+            background-size: 100% 100%;
+        }
+        #phone_s  .phone3{
+            background: url('category images/Phone01.jpg');
+            background-size: 100% 100%;
+        }
+        #phone_s  .phone4{
+            background: url('category images/asus_p.jpg ');
+            background-size: 100% 100%;
+        }
+        #laptop_s  .l1{
+            background: url('category images/l02.jpg ');
+            background-size: 100% 100%;
+        }
+        #laptop_s  .l2{
+            background: url('category images/l05.jpg');
+            background-size: 100% 100%;
+        }
+        #laptop_s  .l3{
+            background: url('category images/l04.jpg ');
+            background-size: 100% 100%;
+        }
+        #laptop_s  .l4{
+            background: url('category images/l06.jpg ');
+            background-size: 100% 100%;
+        }
+
+        #laptop_s .box1 img{
+            width : 100%;
+            height: 100%;
+        }
+        #fitness_s .f1{
+            background: url('category images/fitness01.jpg');
+            background-size: 100% 100%;
+        } 
+        #fitness_s .f2{
+            background: url('category images/fitness1.jpg');
+            background-size: 100% 100%;
+        }
+        #fitness_s .f3{
+            background: url('category images/fitness02.jpg');
+            background-size: 100% 100%;
+        } 
+        #fitness_s .f4{
+            background: url('category images/fitness_f.jpg');
+            background-size: 100% 100%;
+        }
+        #gaming_s .g1{
+            background: url('category images/Gaming_1.jpg') no-repeat ;
+            background-size:100% 100% ;
+        }
+        #gaming_s .g2{
+            background: url('category images/Gaming_2.jpg') no-repeat;
+            background-size:100% 100% ;
+        }
+        #gaming_s .g3{
+            background: url('category images/Gaming_3.jpg') no-repeat;
+            background-size:100% 100% ;
+        }
+        #gaming_s .g4{
+            background: url('category images/Gaming_4.jpg') no-repeat;
+            background-size:100% 100% ;
+        }
+        #footer {
+            width: 100%;
+            height: 280px;
+            background-color: black;
+        }
+        #footer_c{
+            float : left;
+            margin: 1% 5% 1% 5%;
+            width : 90%;
+            height : 210px;
+            border-bottom: 1px solid white;
+        }
+        #footer1{
+            float  : left;
+            margin-right: 20px;
+            margin-left : 20px;
+            width : 400px;
+            height : 200px;
+            border-right : 1px solid rgb(59, 58, 58);
+        }
+        #footer1 h2{
+            font-family: Arial;
+            font-size: 24px;
+            font-weight: bolder;
+            color: red;
+            font-family: 'Cinzel Decorative', cursive;
+        }
+        #footer1 p{
+            font-family: Arial;
+            font-size: 16px;
+            color: whitesmoke;
+        }
+        #android{
+            float : left;
+            width : 150px;
+            height : 45px;
+            border-radius: 5px;
+            background: white;
+            transition: transform;
+            transition-duration: 1s;
+        }
+        #android img{
+            float : left;
+            margin : 2px 5px;
+            width : 25%;
+        }
+        #ios img{
+            float : left;
+            margin : 2px 5px;
+            width : 25%;
+        }
+        #ios{
+            float : left;
+            margin-left : 10px;
+            width : 150px;
+            height : 45px;
+            border-radius: 5px;
+            background: white;
+            transition: transform;
+            transition-duration: 1s;
+        }
+        #ios:hover, #android:hover{
+            border : 1px solid rgb(248, 113, 113);
+            transform :scale(1.05,1.05);
+        }
+        #android p{
+            margin: 5px 0 0 0;
+            font-size: 10px;
+            font-family: Arial;
+            color : black;
+        }
+        #android h3{
+            margin : 0;
+            font-size : 16px;
+            font-weight: bolder;
+            font-family: Arial;
+        }
+        #ios p{
+            margin: 5px 0 0 0;
+            font-size: 10px;
+            font-family: Arial;
+            color : black;
+        }
+        #ios h3{
+            margin : 0;
+            font-size : 16px;
+            font-weight: bolder;
+            font-family: Arial;
+        }
+        #footer2{
+            float  : left;
+            margin-right: 20px;
+            width : 400px;
+            height : 200px;
+            border-right : 1px solid rgb(59, 58, 58);
+        }
+        #footer2 img{
+            width : 50%;
+            margin : 5% 25%;
+        }
+        #footer2 p{
+            margin : 0 1%;
+            text-align: center;
+            font-size: 14px;
+            color : whitesmoke;
+            font-family: 'Courier New', Courier, monospace;
+            word-spacing: 1px;
+        }
+        #footer3{
+            float  : left;
+            margin-right: 20px;
+            width : 200px;
+            height : 200px;
+            border-right : 1px solid rgb(59, 58, 58);
+        }
+        #footer3 h3,#footer4 h3{
+            margin : 10% 10% 5% 2%;
+            font-family: Arial;
+            font-size: 18px;
+            font-weight: bolder;
+            color: red;
+            font-family: 'Cinzel Decorative', cursive;
+            letter-spacing: 1px;
+            
+        }
+        #footer3 ul, #footer4 ul {
+            padding: 0 0 0 1px;
+            margin : 0;
+            list-style-type: none;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        #footer3 ul li a:link, #footer3  ul li a:visited,#footer4 ul li a:link,#footer4 ul li a:visited{
+            padding: 0;
+            font-size: 15px;
+            margin : 5px 0;
+            text-decoration: none;
+            color : rgb(187, 181, 181);
+            display: block;
+            transition: margin;
+            transition-duration: 0.5s;
+        }
+        #footer4 ul li:last-child a:link,#footer4 ul li:last-child:visited{
+            font-size: 12px;
+        }
+        #footer3 ul li a:hover,#footer4 ul li a:hover{
+            color : red;
+            font-weight: bolder;
+            margin-left : 10px;
+        }
+        #footer4{
+            float  : left;
+            margin-left: 5px;
+            width : 250px;
+            height : 200px;
+        }
+        .copyright{
+            margin : 0;
+            font-weight: bolder;
+            font-style: italic;
+            font-family: 'Courier New';
+            font-size: 18px;
+            float : left;
+            padding-left : 25%;
+            text-align : left;
+            color : rgb(241, 239, 239);
+        }
+        .copyright b{
+            color : red;
+        }
+        .designed{
+            margin : 0;
+            font-weight: bolder;
+            font-style: italic;
+            font-family: 'Courier New';
+            font-size: 18px;
+            float : right;
+            padding-right : 25%;
+            color : rgb(241, 239, 239);
+        }
+        .designed b{
+            color : red;
+        }
