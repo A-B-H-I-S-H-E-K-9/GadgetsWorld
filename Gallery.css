@@ -216,7 +216,7 @@
         height: 100%;
         animation-name: photo_key;
         animation-duration: 2s;
-        animation-delay: 0.5s;
+        animation-delay: 1.5s;
         background: url('Gallery images/Phone01.jpg');
         background-size: 100% 100%;
     }
@@ -225,7 +225,7 @@
         height: 100%;
         animation-name: photo_key;
         animation-duration: 2s;
-        animation-delay: 0.7s;
+        animation-delay: 2.5s;
         background: url('Gallery images/Phone2.jpg');
         background-size: 100% 100%;
     }
@@ -234,7 +234,7 @@
         height : 100%;
         animation-name: photo_key;
         animation-duration: 2s;
-        animation-delay: 0.9s;
+        animation-delay: 3.5s;
         background: url('Gallery images/Phone3.jpg');
         background-size: 100% 100%;
     }
@@ -243,7 +243,7 @@
         height : 100%;
         animation-name: photo_key;
         animation-duration: 2s;
-        animation-delay: 1.1s;
+        animation-delay: 4.5s;
         background: url('Gallery images/Phone4.jpg');
         background-size: 100% 100%;
     }
@@ -252,7 +252,7 @@
         height : 100%;
         animation-name: photo_key;
         animation-duration: 2s;
-        animation-delay: 1.3s;
+        animation-delay: 5.5s;
         background: url('Gallery images/phone5.jpg');
         background-size: 100% 100%;
     }
@@ -261,7 +261,7 @@
         height : 100%;
         animation-name: photo_key;
         animation-duration: 2s;
-        animation-delay: 1.5s;
+        animation-delay: 6.5s;
         background: url('Gallery images/phone6.jpg');
         background-size: 100% 100%;
     }
@@ -270,7 +270,7 @@
         height : 100%;
         animation-name: photo_key;
         animation-duration: 2s;
-        animation-delay: 1.7s;
+        animation-delay: 7.5s;
         background: url('Gallery images/phone1.jpg');
         background-size: 100% 100%;
     }
@@ -280,7 +280,7 @@
         height : 100%;
         animation-name: photo_key;
         animation-duration: 2s;
-        animation-delay: 1.9s;
+        animation-delay: 8.5s;
         background: url('Gallery images/phone80.jpg');
         background-size: 100% 100%;
     }
@@ -325,7 +325,7 @@
         height : 100%;
         animation-name: photo_key;
         animation-duration: 2s;
-        animation-delay: 2.3s;
+        animation-delay: 9.5s;
         background: url('Gallery images/laptop10.jpg');
         background-size: 100% 100%;
     }
@@ -334,7 +334,7 @@
         height : 100%;
         animation-name: photo_key;
         animation-duration: 2s;
-        animation-delay: 2.5s;
+        animation-delay: 10.5s;
         background: url('Gallery images/laptop011.jpg');
         background-size: 100% 100%;
     }
@@ -343,7 +343,7 @@
         height : 100%;
         animation-name: photo_key;
         animation-duration: 2s;
-        animation-delay: 2.7s;
+        animation-delay: 11.7s;
         background: url('Gallery images/laptop12.jpg');
         background-size: 100% 100%;
     }
@@ -352,7 +352,7 @@
         height : 100%;
         animation-name: photo_key;
         animation-duration: 2s;
-        animation-delay: 2.9s;
+        animation-delay: 12.5s;
         background: url('Gallery images/desktop1.jpg');
         background-size: 100% 100%;
     }
@@ -361,7 +361,7 @@
         height : 100%;
         animation-name: photo_key;
         animation-duration: 2s;
-        animation-delay: 3.1s;
+        animation-delay: 13.5s;
         background: url('Gallery images/laptop010.jpg');
         background-size: 100% 100%;
     }
@@ -370,7 +370,7 @@
         height : 100%;
         animation-name: photo_key;
         animation-duration: 2s;
-        animation-delay: 3.3s;
+        animation-delay: 17.5s;
         background: url('Gallery images/desktop2.jpg');
         background-size: 100% 100%;
     }
@@ -379,7 +379,7 @@
         height : 100%;
         animation-name: photo_key;
         animation-duration: 2s;
-        animation-delay: 3.5s;
+        animation-delay:18.5s;
         background: url('Gallery images/desktop.jpg');
         background-size: 100% 100%;
     }
@@ -389,7 +389,7 @@
         height : 100%;
         animation-name: photo_key;
         animation-duration: 2s;
-        animation-delay: 3.7s;
+        animation-delay: 19.5s;
         background: url('Gallery images/desktop3.jpg');
         background-size: 100% 100%;
     }
@@ -434,7 +434,7 @@
         height : 100%;
         animation-name: photo_key;
         animation-duration: 2s;
-        animation-delay: 4.1s;
+        animation-delay: 20.5s;
         background: url('Gallery images/sw10.jpg');
         background-size: 100% 100%;
     }
@@ -443,7 +443,7 @@
         height : 100%;
         animation-name: photo_key;
         animation-duration: 2s;
-        animation-delay: 4.3s;
+        animation-delay: 21.5s;
         background: url('Gallery images/sw11.jpg');
         background-size: 100% 100%;
     }
@@ -452,7 +452,7 @@
         height : 100%;
         animation-name: photo_key;
         animation-duration: 2s;
-        animation-delay: 4.5s;
+        animation-delay: 22.5s;
         background: url('Gallery images/sw12.jpg');
         background-size: 100% 100%;
     }
@@ -461,7 +461,7 @@
         height : 100%;
         animation-name: photo_key;
         animation-duration: 2s;
-        animation-delay: 4.7s;
+        animation-delay: 23.5s;
         background: url('Gallery images/sw13.jpg');
         background-size: 100% 100%;
     }
@@ -470,7 +470,7 @@
         height : 100%;
         animation-name: photo_key;
         animation-duration: 2s;
-        animation-delay: 4.9s;
+        animation-delay: 24.5s;
         background: url('Gallery images/sw14.jpg');
         background-size: 100% 100%;
     }
@@ -479,7 +479,7 @@
         height : 100%;
         animation-name: photo_key;
         animation-duration: 2s;
-        animation-delay: 5.1s;
+        animation-delay: 25.5s;
         background: url('Gallery images/sw10.jpg');
         background-size: 100% 100%;
     }
@@ -488,7 +488,7 @@
         height : 100%;
         animation-name: photo_key;
         animation-duration: 2s;
-        animation-delay: 5.3s;
+        animation-delay: 26.5s;
         background: url('Gallery images/sw11.jpg');
         background-size: 100% 100%;
     }
@@ -498,13 +498,13 @@
         height : 100%;
         animation-name: photo_key;
         animation-duration: 2s;
-        animation-delay: 5.5s;
+        animation-delay: 27.5s;
         background: url('Gallery images/sw12.jpg');
         background-size: 100% 100%;
     }
     @keyframes photo_key{
         0%{
-            transform: translate(5px, 5px);
+            transform: translate(10px, 10px);
         }
         100%{
             transform: translate(0,0);
