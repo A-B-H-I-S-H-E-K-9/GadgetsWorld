@@ -262,7 +262,7 @@
         animation-name: photo_key;
         animation-duration: 2s;
         animation-delay: 1.5s;
-        background: url('Gallery images/Phone6.jpg');
+        background: url('Gallery images/phone6.jpg');
         background-size: 100% 100%;
     }
     #phones #pic8{
@@ -271,7 +271,7 @@
         animation-name: photo_key;
         animation-duration: 2s;
         animation-delay: 1.7s;
-        background: url('Gallery images/Phone1.jpg');
+        background: url('Gallery images/phone1.jpg');
         background-size: 100% 100%;
     }
     
